@@ -1,0 +1,6 @@
+@import "./shared/fonts.css";
+
+:root {
+    font-family: 'Barlow';
+    font-size: 20px;
+}
