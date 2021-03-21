@@ -44,12 +44,9 @@
 }
 
 .mobile-nav-links {
+    text-decoration: none;
     display: inline-block;
     color: white;
-}
-
-.mobile-nav-links:hover {
-    border-bottom: 2px solid white;
 }
 
 .mobile-nav-menu {
@@ -69,8 +66,8 @@
     width: 100%;
     text-align: center;
     /*padding: 39px 0px 10px 0px;*/
-    color: #FF4F0A;
-    font-size: 15px;
+    color: white;
+    font-size: 17px;
     font-weight: bold;
     transition: 0.3s;
     margin-bottom: 10px;
