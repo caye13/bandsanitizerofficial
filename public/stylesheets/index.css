@@ -1,0 +1,18 @@
+#index {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner {
+	height: 100%;
+	background-image: url("../photos/feb14.jpeg");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+div {
+    color: white;
+}
