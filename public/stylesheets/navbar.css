@@ -12,13 +12,12 @@
 
 .nav-link {
     display: block;
-    /*padding: 39px 0px 10px 0px;*/
     color: #FF4F0A;
     font-size: 20px;
     float: left;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
-    /* transition: 0.3s; */
+    width: 20%;
     padding: 5px 0px 5px 0px;
 }
 .nav-link:hover {
