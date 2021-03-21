@@ -3,4 +3,22 @@
 :root {
     font-family: 'Barlow';
     font-size: 20px;
+    color: white;
+}
+
+html {
+    padding: 0px;
+    height: 100%;
+    /*-webkit-text-size-adjust: none;*/
+}
+
+body {
+    
+    padding-left: 258px;
+    background-color: #272B30;
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+    margin: 0px;
+    height: 100%;
 }
