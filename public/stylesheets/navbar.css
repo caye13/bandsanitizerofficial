@@ -23,8 +23,7 @@
 }
 
 .nav-link:hover {
-    border-bottom: 2px solid white;
-    
+    border-bottom: 2px solid white;  
 }
 
 .nav-menu {
@@ -46,12 +45,11 @@
 
 .mobile-nav-links {
     display: inline-block;
-    left: 0;
-    color: #FF4F0A;
+    color: white;
 }
 
 .mobile-nav-links:hover {
-    color: #3B598B; 
+    border-bottom: 2px solid white;
 }
 
 .mobile-nav-menu {
@@ -88,13 +86,12 @@
     margin-top: none;
 }
 
-#mobile-nav-htc-title {
+#mobile-nav-title {
     float: left;
     margin-left: 10px;
     margin-top: 17px;
     text-align: left;
-    text-align: center;
-    color: #3B598B;
+    color: white;
 
 }
 
