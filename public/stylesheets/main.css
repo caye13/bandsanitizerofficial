@@ -26,11 +26,13 @@ body {
 }
 
 @media (max-width: 800px) {
+    
     #container {
       padding: 0;
       margin: 0;
     }
-  }
+
+}
 
 .fade-in {
     animation: fadeIn ease 10s;
@@ -39,6 +41,7 @@ body {
     -o-animation: fadeIn ease 10s;
     -ms-animation: fadeIn ease 10s;
 }
+
 @keyframes fadeIn {
     0% {
         opacity:0;
