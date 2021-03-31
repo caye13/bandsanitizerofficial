@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/navbar.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/header.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/footer.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
@@ -12,12 +13,39 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/gigs.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/band.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/gallery.css">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/shop.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <title>Band Sanitizer Official</title>
 </head>
 <body>
     <%- include('../partials/header.ejs') %>
-    <%- body %>
+    <div class="content">
+        <%- body %>
+    </div>
     <%- include('../partials/footer.ejs') %>
+
+    <script>
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+        $( document ).ready(function() {
+          var hamburger = $('#hamburger-icon');
+          var mobile_link_container = $('#mobile-link-container');
+          hamburger.click(function() {
+                hamburger.toggleClass('active');
+                mobile_link_container.toggleClass('mobile-nav-display');
+                console.log("click");
+                return false;
+          });
+          for(var num=1;num<=5;num++) {
+            var link = $('#link'+num);
+            var href = link.href
+            var e = $(href)
+            link.click(function() {
+                hamburger.toggleClass('active');
+                mobile_link_container.toggleClass('mobile-nav-display')
+                e.scrollIntoView()
+                return false;
+            });
+          }
+        });
+    </script>
 </body>
 </html>
