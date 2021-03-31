@@ -47,6 +47,7 @@
     text-decoration: none;
     display: inline-block;
     color: white;
+    margin: auto;
 }
 
 .mobile-nav-menu {
@@ -97,7 +98,7 @@
 }
 
 #mobile-link-container {
-    background: #272B30;
+    background: black;
     padding: none;
     z-index: 5;
 }
@@ -222,6 +223,7 @@ body {
   cursor: pointer;
   transition: all 0.3s;
   color: rgba(43, 108, 100);
+  margin: auto;
 }
 .glass-btn:hover {
   background-color: rgba(3,3,3);
