@@ -1,0 +1,232 @@
+.navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 39px;
+    /*background-color: white;*/
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    width: 16%;
+    padding: 9.5px 0px 9.5px 0px;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid white;  
+}
+
+.nav-menu {
+    float: none;
+    background: black;
+    max-width: 100%;
+    border-radius: 0px 5px 5px 0px;
+    z-index: 10;    
+}
+
+.mobile-navigation {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 50px;
+}
+
+.mobile-nav-links {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+.mobile-nav-menu {
+    display: none;
+    background: black;
+    border-style: none solid none none;
+    border-right-width: 1px;
+    border-color: gray;
+    border-radius: 0px 0px 2px 2px;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+}
+
+.mobile-nav-links-index {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    /*padding: 39px 0px 10px 0px;*/
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.mobile-reg-button {
+    color: #F0F4FF;
+    font-size: 12px;
+    background-color: green;
+    padding: 10px 30px;
+    border-radius: 5px;
+    z-index: 5;
+    margin-top: none;
+}
+
+#mobile-nav-title {
+    float: left;
+    margin-left: 10px;
+    margin-top: 17px;
+    text-align: left;
+    color: white;
+
+}
+
+#nav-top-menu .nav-top-menu {
+    display: none;
+}
+
+#mobile-link-container {
+    background: #272B30;
+    padding: none;
+    z-index: 5;
+}
+
+.mobile-nav-display {
+    display: none;
+}
+/* Style the hamburger menu */
+
+/*$height-icon: 12.5px;
+$width-line: 25px;
+$height-line: 2px;
+$transition-time: 0.4s;
+$rotation: 45deg;
+$translateY: ($height-icon / 2);
+$translateX: 0;*/
+
+
+#hamburger-icon {
+  width: 25px;
+  height: 12.5px;
+  position: relative;
+  display:block;
+  margin: 19px 10px 17.5px auto;
+}
+
+.line {
+    display:block;
+    background: #F0F4FF;
+    width:25px;
+    height: 2px;
+    position:absolute;
+    left:0;
+    border-radius: 1px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+.line-1 {
+  top:0;
+}
+.line-2 {
+  top:50%;
+}
+.line-3 {
+  top:100%;
+}
+
+#hamburger-icon:hover .line-1 {
+    transform: translateY(-1px);
+    -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px); 
+}
+#hamburger-icon:hover .line-3 {
+    transform: translateY(1px);
+    -webkit-transform: translateY(1px);
+    -moz-transform: translateY(1px);
+}
+
+#hamburger-icon.active .line-1 {
+    transform: translateY(6.25px) translateX(0) rotate(45deg);
+    -webkit-transform: translateY(6.25px) translateX(0) rotate(45deg);
+    -moz-transform: translateY(6.25px) translateX(0) rotate(45deg);
+}
+
+#hamburger-icon.active .line-2 {
+    opacity:0;
+}
+
+#hamburger-icon.active .line-3 {
+    transform: translateY(-6.25px) translateX(0) rotate(-45deg);
+    -webkit-transform: translateY(-6.25px) translateX(0) rotate(-45deg);
+    -moz-transform: translateY(-6.25px) translateX(0) rotate(-45deg);
+}
+
+#hamburger-icon a {
+  text-decoration:none;
+  color:#95a5a6;
+  margin: 0.5em 1.5em;
+  display:inline-block;
+}
+
+@media screen and (max-width: 800px) {
+    #desktop-nav-menu {
+      display: none;
+    }
+    .mobile-nav-menu {
+        border-right-width: 0px;
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+	/* Show dropdown nav for mobile and fixed nav for desktop */
+
+	.mobile-nav-menu {
+		display: inline-block;
+	}
+}
+
+html,
+body {
+    transition: all 0.3s;
+    height: 100%;
+}
+
+.button-container {
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.glass-btn {
+  width: 39px;
+  height: 39px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: rgba(43, 108, 100);
+}
+.glass-btn:hover {
+  background-color: rgba(3,3,3);
+  transform: translateY(-2px);
+  transition: all 0.3s;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(43, 108, 100 .4);
+} 
