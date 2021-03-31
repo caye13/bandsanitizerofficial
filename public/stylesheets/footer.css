@@ -31,3 +31,15 @@ footer p {
     margin: auto;
     text-align: center;
 }
+
+@media (max-width: 800px) {
+    .center {
+        width: 100%;
+    }
+    .footer-icon {
+        margin-right: 0px;
+        width: 20%;
+        float: left;
+        text-decoration: none;
+    }
+}
