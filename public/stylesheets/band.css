@@ -1,1 +1,57 @@
 /* color #2B6C64 */
+/* * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+} */
+.caye {
+    height: 100%;
+    position: inherit;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-image: url("../public/photos/caye.jpeg");
+}
+.post-wrap {
+    width: 320px;
+    height: 400px;
+    perspective: 1000px;
+ }
+
+ .post {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+   transform-style: preserve-3d; 
+   text-align: center;
+ }
+
+ .post-front, .post-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+ }
+ .post-back {
+    transform: rotateY(180deg);
+ }
+ .post-wrap:hover .post{
+    transform: rotateY(180deg);
+ }
+
+ .column {
+    float: left;
+    width: 16.66%;
+    margin: 0;
+    padding: 0;
+ }
+
+ @media (max-width: 900px) {
+     .column {
+         width: 100%;
+     }
+ }
