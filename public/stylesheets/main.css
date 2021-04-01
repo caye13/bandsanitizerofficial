@@ -40,6 +40,15 @@ body {
     overflow: hidden;
 }
 
+.band-title {
+    position: absolute;
+    top: 40%;
+    display: block;
+    width: 100%;
+    background-color: blue;
+    z-index: 10;
+}
+
 @media (max-width: 800px) {
     
     #container {
