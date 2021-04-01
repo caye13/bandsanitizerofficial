@@ -48,7 +48,7 @@
 		-ms-flex-item-align: center;
 			align-self: center;
 	font-size: 1rem;
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 1;
 	margin: 20px;
 	padding: 1.2em 2.8em;
@@ -73,6 +73,11 @@
 	box-shadow: 0 0 10px 0 #2b6c64 inset, 0 0 10px 4px #2b6c64;
   }
   @media (max-width: 1000px) {
+	.streamNowTitle {
+		font-weight: 900;
+		font-style: bold;
+		font-size: 21px;
+	}
 	.column5 {
 		width: 100%;
 		padding-top: 10px;
@@ -87,6 +92,15 @@
 	.btn {
 		text-align: left;
 		width: 90%;
+		padding: 1.2em 15em;
+	}
+}
+
+@media (max-width: 700px) {
+	.btn {
+		text-align: left;
+		width: 90%;
+		padding: 1.2em 5.5em;
 	}
 	.streamNow {
 		line-height: 31px;

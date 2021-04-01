@@ -54,11 +54,14 @@
 }
 
 @media (max-width: 1024px) {
-    .column1 {
+    /* .column1 {
         width: 100%;
     }
     .column2 {
         width: 100%;
+    } */
+    #event {
+        padding: 0px;
     }
 }
 @media (max-width: 800px) {
