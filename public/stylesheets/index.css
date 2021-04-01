@@ -40,9 +40,6 @@
 	border-radius: 0.6em;
 	color: #2b6c64;
 	cursor: pointer;
-	/* display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox; */
 	-webkit-align-self: center;
 		-ms-flex-item-align: center;
 			align-self: center;
