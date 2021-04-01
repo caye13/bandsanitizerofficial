@@ -26,6 +26,11 @@ footer img {
 footer p {
     color: white;
 }
+
+.footer-icon {
+    text-decoration: none;
+}
+
 .center {
     width: 50%;
     margin: auto;
@@ -50,6 +55,5 @@ footer p {
         margin-right: 0px;
         width: 20%;
         float: left;
-        text-decoration: none;
     }
 }
