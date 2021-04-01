@@ -41,3 +41,15 @@ footer p {
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 5px 15px rgba(43, 108, 100, 0.4);
 }
+
+@media (max-width: 800px) {
+    .center {
+        width: 100%;
+    }
+    .footer-icon {
+        margin-right: 0px;
+        width: 20%;
+        float: left;
+        text-decoration: none;
+    }
+}

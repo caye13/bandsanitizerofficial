@@ -32,7 +32,6 @@
     float: none;
     background: black;
     max-width: 100%;
-    border-radius: 0px 5px 5px 0px;
     z-index: 10;    
 }
 
@@ -49,6 +48,7 @@
     text-decoration: none;
     display: inline-block;
     color: white;
+    margin: auto;
 }
 
 .mobile-nav-menu {
@@ -57,7 +57,6 @@
     border-style: none solid none none;
     border-right-width: 1px;
     border-color: gray;
-    border-radius: 0px 0px 2px 2px;
     z-index: 10;
     width: 100%;
     top: 0;
@@ -102,6 +101,8 @@
     background: black;
     padding: none;
     z-index: 5;
+    position: fixed;
+    width: 100%;
 }
 
 .mobile-nav-display {
@@ -188,7 +189,6 @@ $translateX: 0;*/
       display: none;
     }
     .mobile-nav-menu {
-        border-right-width: 0px;
         display: block;
     }
 }
@@ -224,6 +224,7 @@ body {
   cursor: pointer;
   transition: all 0.3s;
   color: rgba(43, 108, 100);
+  margin: auto;
 }
 .glass-btn:hover {
   background-color: rgba(3,3,3);
