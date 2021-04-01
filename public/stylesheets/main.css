@@ -42,7 +42,7 @@ body {
 
 .band-title {
     position: absolute;
-    top: 50%;
+    top: 33%;
     display: block;
     width: 100%;
     z-index: 10;
@@ -87,13 +87,23 @@ body {
 .large {
     font-weight: 800;
     font-style: bold;
-    font-size: 78px;
+    font-size: 150px;
+    line-height: 130px;
+    margin-bottom: 39px;;
 }
 
 .med {
-    font-weight: 200;
-    font-style: medium;
+    line-height: 20px;
+    font-weight: 500;
+    font-style: bold;
     font-size: 26px;
+}
+
+@media (max-width: 800px) {
+    .large {
+        font-size: 24vw;
+        line-height: 21vw;
+    }
 }
 
 @keyframes fadeIn {

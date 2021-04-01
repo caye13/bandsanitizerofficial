@@ -1,6 +1,6 @@
 /* color #2B6C64 */
 #band {
-    padding-top: 50px;
+    padding-top: 40px;
 }
 .about1 {
     height: 100%;
@@ -23,12 +23,14 @@
 }
 .post-wrap {
     width: 320px;
-    height: 480px;
+    height: 100vh;
     perspective: 1000px;
  }
+
 .post img {
-    object-fit: 100%;
-    height: 480px;
+    /* top: 10%; */
+    object-fit: cover;
+    height: 100vh;
     width: 100%;
 }
  .post {

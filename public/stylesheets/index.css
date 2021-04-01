@@ -40,10 +40,6 @@
 	border-radius: 0.6em;
 	color: #2b6c64;
 	cursor: pointer;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
 	-webkit-align-self: center;
 		-ms-flex-item-align: center;
 			align-self: center;
@@ -53,10 +49,11 @@
 	margin: 20px;
 	padding: 1.2em 2.8em;
 	text-decoration: none;
-	text-align: center;
+	/* text-align: center; */
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
+	margin: auto;
   }
   .btn:hover, .btn:focus {
 	color: #fff;
@@ -90,25 +87,18 @@
 		text-align: center;
 	}
 	.btn {
-		text-align: left;
-		width: 90%;
-		padding: 1.2em 15em;
+		width: 100%;
+		/* padding: 1.2em 15em; */
 	}
 }
 
 @media (max-width: 700px) {
-	.btn {
-		text-align: left;
-		width: 90%;
-		padding: 1.2em 5.5em;
-	}
 	.streamNow {
 		line-height: 31px;
 	}
 }
 @media (max-width: 800px) {
 	.btn {
-		text-align: center;
 		width: 100%;
 		padding: 20px;
 	}
