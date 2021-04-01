@@ -26,11 +26,30 @@
     width: 100%;
 }
 
-.music h3 {
+.epTitle {
+	font-size: 39px;
+	line-height: 31px;
+}
+
+.ep {
+	text-align: center;
+	padding: 15px;
+	line-height: 50px;
+	font-weight: 300;
+    font-style: medium;
+    font-size: 26px;
+}
+.epTracks {
+	color: rgba(255, 255, 255, 0.8);
 	text-align: center;
 	font-weight: 500;
 	font-style: bold;
 	font-size: 21px;
+}
+
+.epTracks:hover {
+	color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(43, 108, 100, 0.3);
 }
 .music h1 {
 	text-align: center;
@@ -44,6 +63,19 @@ img.gradient {
 	height: auto;
 	padding: 15px;
 	line-height: 0;
+
+}
+
+.epcover {
+	float: right;
+	height: 80%;
+	width: 80%;
+	background-blend-mode:overlay;
+}
+
+@media(max-width: 800px) {
+	#music {
+		padding: 0px;
 }
 
 @media (max-width: 800px) {

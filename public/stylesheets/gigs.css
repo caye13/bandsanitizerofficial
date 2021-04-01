@@ -2,6 +2,7 @@
     padding-left: 104px;
     padding-right: 104px;
     padding-top: 50px;
+    line-height: 30px;
 }
 /* .half {
     width: 50%;
@@ -61,5 +62,10 @@
     } */
     #event {
         padding: 0px;
+    }
+}
+@media (max-width: 800px) {
+    #gigs {
+        padding: 15px;
     }
 }
