@@ -66,6 +66,20 @@ body {
     -ms-animation: fadeIn ease 8s;
 }
 
+.fade-in2 {
+    animation: fadeIn ease 16s;
+    -webkit-animation: fadeIn ease 16s;
+    -moz-animation: fadeIn ease 16s;
+    -o-animation: fadeIn ease 16s;
+    -ms-animation: fadeIn ease 16s;
+}
+.fade-in3 {
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+}
 
 .large {
     font-weight: 800;

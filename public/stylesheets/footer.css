@@ -3,8 +3,14 @@ svg {
     height: 50px;
     padding: 10px;
     border-radius: 10px;
-    background: white;
+    background: black;
     fill: rgb(43, 108, 100);
+}
+svg:hover {
+  transform: translateY(-2px);
+  transition: all 0.3s;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(43, 108, 100 .4);
 }
 footer {
     width: 100%;
@@ -16,7 +22,7 @@ footer h3 {
     padding-top: 0px;
     margin: 0px;
     text-align: center;
-    color: white;
+    color: black;
 }
 footer img {
     padding-top: 21px;
@@ -24,7 +30,7 @@ footer img {
     height: 50px;
 }
 footer p {
-    color: white;
+    color: black;
 }
 
 .footer-icon {
