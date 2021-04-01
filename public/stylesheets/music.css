@@ -54,7 +54,16 @@ div.gradient {
 	height: auto;
 	padding: 15px;
 	line-height: 0;
+
 }
+
+.epcover {
+	float: right;
+	height: 80%;
+	width: 80%;
+	background-blend-mode:overlay;
+}
+
 @media(max-width: 800px) {
 	#music {
 		padding: 0px;
