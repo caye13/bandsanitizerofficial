@@ -87,16 +87,12 @@
 		text-align: center;
 	}
 	.btn {
-		width: 90%;
-		padding: 1.2em 15em;
+		width: 100%;
+		/* padding: 1.2em 15em; */
 	}
 }
 
 @media (max-width: 700px) {
-	.btn {
-		width: 90%;
-		padding: 1.2em 5.5em;
-	}
 	.streamNow {
 		line-height: 31px;
 	}
