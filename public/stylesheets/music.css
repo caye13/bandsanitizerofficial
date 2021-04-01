@@ -65,12 +65,24 @@ img.gradient {
 	line-height: 0;
 
 }
-
+.blurdiv {
+	height: 100%;
+	width: 100%;
+}
+.epp {
+	margin: auto;
+	width: 200px;
+	position: relative;
+}
+.epcover img {
+	width: 100%;
+}
 .epcover {
-	float: right;
-	height: 80%;
-	width: 80%;
-	background-blend-mode:overlay;
+	width: 100%;
+	position: absolute;
+	bottom: 40px;
+	top: 0px;
+	box-shadow: inset 0px 0px 10px 20px black;
 }
 
 @media (max-width: 800px) {
