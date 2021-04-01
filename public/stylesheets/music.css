@@ -25,14 +25,35 @@
 
 .music h3 {
 	text-align: center;
+	font-weight: 500;
+	font-style: bold;
+	font-size: 21px;
 }
 .music h1 {
 	text-align: center;
+	font-weight: 500;
+	font-style: bold;
+	font-size: 39px;
 }
-div.gradient {
+img.gradient {
 	border-radius: 999em;
 	width: 100%;
 	height: auto;
 	padding: 15px;
 	line-height: 0;
+}
+
+@media (max-width: 800px) {
+	.music h3 {
+		text-align: center;
+		font-weight: 500;
+		font-style: bold;
+		font-size: 21px;
+	}
+	.music h1 {
+		text-align: center;
+		font-weight: 500;
+		font-style: bold;
+		font-size: 26px;
+	}
 }
