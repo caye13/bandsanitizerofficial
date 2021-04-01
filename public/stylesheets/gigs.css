@@ -1,0 +1,52 @@
+#gigs {
+    padding-left: 104px;
+    padding-right: 104px;
+}
+/* .half {
+    width: 50%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+} */
+
+.tbd {
+    padding-left: 50px;
+}
+.column1 {
+    width: 30%;
+    float: left;
+}
+.column2 {
+    width: 70%;
+    float: left;
+}
+.date {
+    /* border-style: solid;
+    border-color: white;
+    border-radius: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px; */
+    text-align: center;
+    margin-right: 0px;
+    padding: 0px;
+    height: 100%;
+}
+#event {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.venue {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+.pastEvent {
+    border-style: groove;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 0px;
+    border-color: white;
+    height: 100%;
+}

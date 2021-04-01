@@ -5,9 +5,9 @@
 	align-items: center;
 }
 
-.banner {
+.musicbanner {
 	height: 100%;
-	/* background-image: url("../photos/feb14.jpeg"); */
+	background-image: url("../photos/feb14.jpeg");
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
