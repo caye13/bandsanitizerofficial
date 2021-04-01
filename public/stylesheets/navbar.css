@@ -184,7 +184,7 @@ $translateX: 0;*/
   display:inline-block;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
     #desktop-nav-menu {
       display: none;
     }

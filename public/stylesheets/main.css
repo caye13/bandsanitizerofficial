@@ -42,11 +42,11 @@ body {
 
 .band-title {
     position: absolute;
-    top: 40%;
+    top: 50%;
     display: block;
     width: 100%;
-    background-color: blue;
     z-index: 10;
+    text-align: center;
 }
 
 @media (max-width: 800px) {
@@ -59,11 +59,24 @@ body {
 }
 
 .fade-in {
-    animation: fadeIn ease 10s;
-    -webkit-animation: fadeIn ease 10s;
-    -moz-animation: fadeIn ease 10s;
-    -o-animation: fadeIn ease 10s;
-    -ms-animation: fadeIn ease 10s;
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
+}
+
+
+.large {
+    font-weight: 800;
+    font-style: bold;
+    font-size: 78px;
+}
+
+.med {
+    font-weight: 200;
+    font-style: medium;
+    font-size: 26px;
 }
 
 @keyframes fadeIn {
