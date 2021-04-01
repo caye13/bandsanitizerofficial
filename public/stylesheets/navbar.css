@@ -13,7 +13,7 @@
 .nav-link {
     display: block;
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
     font-size: 20px;
     float: left;
     text-align: center;
@@ -24,6 +24,8 @@
 
 .nav-link:hover {
     border-bottom: 2px solid white;  
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(43, 108, 100, 0.4);
 }
 
 .nav-menu {

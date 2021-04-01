@@ -30,6 +30,16 @@ footer p {
     width: 50%;
     margin: auto;
     text-align: center;
+    height: 210px;
+}
+
+.glow {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.glow:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(43, 108, 100, 0.4);
 }
 
 @media (max-width: 800px) {
