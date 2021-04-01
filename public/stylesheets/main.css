@@ -62,26 +62,26 @@ body {
 }
 
 .fade-in {
-    animation: fadeIn ease 8s;
-    -webkit-animation: fadeIn ease 8s;
-    -moz-animation: fadeIn ease 8s;
-    -o-animation: fadeIn ease 8s;
-    -ms-animation: fadeIn ease 8s;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
 }
 
 .fade-in2 {
-    animation: fadeIn ease 16s;
-    -webkit-animation: fadeIn ease 16s;
-    -moz-animation: fadeIn ease 16s;
-    -o-animation: fadeIn ease 16s;
-    -ms-animation: fadeIn ease 16s;
+    animation: fadeIn ease 6s;
+    -webkit-animation: fadeIn ease 6s;
+    -moz-animation: fadeIn ease 6s;
+    -o-animation: fadeIn ease 6s;
+    -ms-animation: fadeIn ease 6s;
 }
 .fade-in3 {
-    animation: fadeIn ease 1s;
-    -webkit-animation: fadeIn ease 1s;
-    -moz-animation: fadeIn ease 1s;
-    -o-animation: fadeIn ease 1s;
-    -ms-animation: fadeIn ease 1s;
+    animation: fadeIn ease 2.5s;
+    -webkit-animation: fadeIn ease 2.5s;
+    -moz-animation: fadeIn ease 2.5s;
+    -o-animation: fadeIn ease 2.5s;
+    -ms-animation: fadeIn ease 2.5s;
 }
 
 .large {
