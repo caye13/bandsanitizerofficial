@@ -73,13 +73,8 @@ img.gradient {
 	background-blend-mode:overlay;
 }
 
-@media(max-width: 800px) {
-	#music {
-		padding: 0px;
-}
-
 @media (max-width: 800px) {
-	.music h3 {
+	/* .music h3 {
 		text-align: center;
 		font-weight: 500;
 		font-style: bold;
@@ -90,5 +85,8 @@ img.gradient {
 		font-weight: 500;
 		font-style: bold;
 		font-size: 30px;
+	} */
+	#music {
+		padding: 0px;
 	}
 }
