@@ -51,3 +51,12 @@
     border-color: white;
     height: 100%;
 }
+
+@media (max-width: 1024px) {
+    .column1 {
+        width: 100%;
+    }
+    .column2 {
+        width: 100%;
+    }
+}
