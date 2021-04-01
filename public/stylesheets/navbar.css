@@ -193,7 +193,7 @@ $translateX: 0;*/
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 	/* Show dropdown nav for mobile and fixed nav for desktop */
 
 	.mobile-nav-menu {

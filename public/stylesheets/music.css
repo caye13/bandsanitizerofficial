@@ -5,4 +5,34 @@
 	align-items: center;
     height: 100%;
 	padding-top: 50px;
+	padding-right: 104px;
+	padding-left: 104px;
+}
+
+/* .musicbanner {
+	height: 100%;
+	background-image: url("photos/bs.jpeg");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+} */
+.music img {
+	/* object-fit: 100%; */
+    height: 100%;
+    width: 100%;
+}
+
+.music h3 {
+	text-align: center;
+}
+.music h1 {
+	text-align: center;
+}
+div.gradient {
+	border-radius: 999em;
+	width: 100%;
+	height: auto;
+	padding: 15px;
+	line-height: 0;
 }
