@@ -62,6 +62,7 @@
     z-index: 10;
     width: 100%;
     top: 0;
+    height: 52px;
 }
 
 .mobile-nav-links-index {
@@ -103,7 +104,7 @@
     background: black;
     padding: none;
     z-index: 5;
-    position: fixed;
+    position: relative;
     width: 100%;
 }
 
