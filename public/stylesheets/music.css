@@ -85,6 +85,25 @@ img.gradient {
 	top: 0px;
 	box-shadow: inset 0px 0px 10px 20px black;
 }
+.music svg {
+	width: 39px;
+    height: 39px;
+    padding: 10px;
+    border-radius: 10px;
+    background: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    fill: rgb(43, 108, 100);
+}
+.music svg:hover {
+	transform: translateY(-2px);
+	transition: all 0.3s;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0 5px 15px rgba(43, 108, 100 .4);
+}
+.stream-icon {
+	text-decoration: none;
+}
 
 @media (max-width: 800px) {
 	/* .music h3 {
@@ -102,4 +121,10 @@ img.gradient {
 	#music {
 		padding: 0px;
 	}
+	.stream-icon {
+		margin-right: 0px;
+		width: 20%;
+		float: left;
+	}
+
 }
