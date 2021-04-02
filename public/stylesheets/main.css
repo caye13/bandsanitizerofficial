@@ -21,7 +21,10 @@ body {
     width: 100%;
     margin: 0 auto;
 }
-
+.streamingPlatforms {
+    padding-left: 25px;
+    padding-right: 25px;
+}
 .content {
 
 }
