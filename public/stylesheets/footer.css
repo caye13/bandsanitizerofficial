@@ -21,13 +21,14 @@ footer {
     padding: 0px;
 }
 footer h3 {
-    padding-top: 0px;
+    padding-top: 21px;
+    padding-bottom: 0px;
     margin: 0px;
     text-align: center;
     color: black;
 }
 footer img {
-    padding-top: 21px;
+    padding-top: 3px;
     width: 130px;
     height: 50px;
 }
