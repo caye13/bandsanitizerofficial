@@ -28,6 +28,13 @@
     font-style: bold;
     font-size: 26px;
 }
+.shopMerch {
+	width: 100%;
+	float: left;
+}
+.shopMerch a {
+	padding-bottom: 25px;
+}
 
 .btn {
 	float: right;
