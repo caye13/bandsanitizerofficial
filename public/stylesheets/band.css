@@ -73,10 +73,12 @@
     float: left;
 }
  @media (max-width: 1024px) {
-     .column {
-         width: 0%;
-     }
-     .column3 {
-         width: 100%;
-     }
+    #band {
+        padding-top: 0px;
+    }
+    .post-wrap {
+        width: 100%;
+        height: 50vh;
+        overflow: hidden;
+    }
  }
