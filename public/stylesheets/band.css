@@ -81,4 +81,7 @@
         height: 50vh;
         overflow: hidden;
     }
+    .column3 {
+        width: 100%;
+    }
  }
