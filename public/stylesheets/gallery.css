@@ -1,0 +1,34 @@
+#gallery {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.galleryTitle {
+    text-align: center;
+    padding-top: 50px;
+}
+.gallerycol {
+    width: 33.33%;
+    float: left; 
+}
+.gallerycol iframe {
+    width: 100%;
+    height: 100%;
+}
+.ytvid {
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    .gallerycol {
+        width: 100%;
+    }
+    .galleryTitile {
+        text-align: center;
+        padding-top: 10px;
+    }
+}
