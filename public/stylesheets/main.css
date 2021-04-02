@@ -45,7 +45,7 @@ body {
 
 .band-title {
     position: absolute;
-    top: 33%;
+    top: 40%;
     display: block;
     width: 100%;
     z-index: 10;
@@ -104,7 +104,7 @@ body {
 
 @media (max-width: 800px) {
     .large {
-        font-size: 24vw;
+        font-size: 20vw;
         line-height: 21vw;
     }
 }
