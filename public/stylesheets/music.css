@@ -65,6 +65,10 @@ img.gradient {
 	line-height: 0;
 
 }
+.purchase {
+	padding-left: 104px;
+	width: 50%;
+}
 .blurdiv {
 	height: 100%;
 	width: 100%;
@@ -80,7 +84,7 @@ img.gradient {
 .epcover {
 	width: 100%;
 	position: absolute;
-	bottom: 40px;
+	bottom: 45px;
 	top: 0px;
 	box-shadow: inset 0px 0px 10px 20px black;
 }
