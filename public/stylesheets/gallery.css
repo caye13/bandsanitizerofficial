@@ -10,6 +10,7 @@
 }
 .gallerycol {
     width: 33.33%;
+    height: 350px;
     float: left; 
 }
 .gallerycol iframe {
@@ -21,6 +22,7 @@
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 10px;
+    height: 80%;
 }
 
 @media (max-width: 800px) {
