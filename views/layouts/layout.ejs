@@ -34,15 +34,15 @@
             const scrollCounter = document.querySelector('.js-scroll-counter');
 
             AOS.init({
-            mirror: true
+                mirror: true
             });
 
             document.addEventListener('aos:in', function(e) {
-            console.log('in!', e.detail);
+                console.log('in!', e.detail);
             });
 
             window.addEventListener('scroll', function() {
-            scrollCounter.innerHTML = window.pageYOffset;
+                scrollCounter.innerHTML = window.pageYOffset;
             });
         }
         /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
@@ -67,6 +67,8 @@
             });
           }
         });
+
+        
     </script>
 </body>
 </html>
