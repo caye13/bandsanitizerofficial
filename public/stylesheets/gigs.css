@@ -52,7 +52,14 @@
     border-color: white;
     height: 100%;
 }
-
+.upcomingEvent {
+    border-style: groove;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 0px;
+    border-color: white;
+    height: 100%;
+}
 @media (max-width: 1024px) {
     /* .column1 {
         width: 100%;
