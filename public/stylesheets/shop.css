@@ -77,6 +77,26 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.shopInformation {
+    font-size: 21px;
+    line-height: 25px;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 15px;
+}
+.imgdivider {
+    width: 50%;
+    /* padding-top: center; */
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;  
+}
+
 @media (max-width: 800px) {
     #shop {
         padding-right: 0px;
